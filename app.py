@@ -53,7 +53,7 @@ def selecting():
     cur.execute('''
     SELECT * FROM Basketball;
     ''');
-    records = curr.fetchall();
+    records = cur.fetchall();
     conn.close();
     response_string = '';
     response_string += '<table>';
