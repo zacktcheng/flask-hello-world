@@ -63,6 +63,4 @@ def selecting():
             response_string += '<td>{}</td>'.format(info);
         response_string += '</tr>';
     response_string += '</table>'
-    return response_string
-
-    return 'Basketball Table Successfully Populated';
+    return response_string;
